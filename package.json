@@ -18,7 +18,7 @@
     "license": "GPL-3.0",
     "gypfile": true,
     "dependencies": {
-        "bindings": "^1.2.1",
-        "nan": "^2.14.0"
+        "bindings": "^1.5.0",
+        "nan": "^2.15.0"
     }
 }

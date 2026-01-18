@@ -65,7 +65,7 @@ void Monitor(const Nan::FunctionCallbackInfo<v8::Value>& info) {
 }
 
 void monitor_init(v8::Local<v8::Object> exports) {
-    v8::Local<v8::Context> context = exports->CreationContext();
+    v8::Local<v8::Context> context = exports->GetCreationContext().ToLocalChecked();
     exports->Set(context,
         Nan::New("monitor").ToLocalChecked(),
         Nan::New<v8::FunctionTemplate>(Monitor)->GetFunction(context)

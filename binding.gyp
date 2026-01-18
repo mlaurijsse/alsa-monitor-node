@@ -13,16 +13,7 @@
             ],
             "libraries": [
                 "-lasound"
-            ],
-            "cflags": [
-                "-Wall",
-                "-Wextra",
-                "-pedantic",
-                "-O3",
-            ],
-            "cflags_cc": [
-                "-std=c++14",
-            ],
+            ]
         }
     ]
 }
